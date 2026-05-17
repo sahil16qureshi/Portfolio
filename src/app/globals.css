@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(103, 232, 249, 0.12), transparent 28rem),
+    radial-gradient(circle at 80% 30%, rgba(167, 139, 250, 0.12), transparent 28rem),
+    #070a12;
+  color: #e5eefc;
+}
+
+body::selection {
+  background: rgba(103, 232, 249, 0.28);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+}
+
+.glass-card {
+  @apply rounded-2xl border border-line bg-white/[0.045] shadow-card backdrop-blur;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-cyanSoft via-slate-100 to-violetSoft bg-clip-text text-transparent;
+}
+
+.fancy-name {
+  font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", cursive;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-cyanSoft/60 focus:ring-offset-2 focus:ring-offset-ink;
+}
