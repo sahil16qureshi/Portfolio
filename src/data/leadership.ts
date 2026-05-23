@@ -1,7 +1,7 @@
 export const leadership = [
   {
     organization: "GIKI Science Society",
-    role: "Executive Lead / Leadership Role",
+    role: "Event Coordinator, All Pakistan Science Fair",
     bullets: [
       "Led and coordinated teams across technical, logistics, media, and operations.",
       "Helped organize national-level science events with 500+ participants.",
