@@ -5,7 +5,7 @@ import { MotionDiv } from "@/components/Motion";
 import { externalLinks } from "@/lib/utils";
 
 export function Hero() {
-  const highlights = ["GIKI", "Full-stack + AI", "Product-minded builds"];
+  const highlights = ["GIKI", "Full-Stack Development", "AI & Machine Learning", "Automation", "Engineering-focused solutions"];
 
   return (
     <section id="home" className="relative overflow-hidden pb-16 pt-10 sm:pb-20 sm:pt-14 lg:pb-24 lg:pt-16">

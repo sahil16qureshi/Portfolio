@@ -181,7 +181,7 @@ export const projects: Project[] = [
       "Built visual analysis of phase-wise performance",
       "Explored predictive modeling for outcome patterns",
     ],
-    metrics: ["700,000+ game logs processed", "Phase-wise performance analysis", "Structured data pipeline"],
+    metrics: ["Improved move accuracy by 15% over time", "Phase-wise performance analysis", "Structured data pipeline"],
     github: "https://github.com/sahil16qureshi",
     demo: "https://github.com/sahil16qureshi",
     extraLink: {
