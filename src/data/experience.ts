@@ -2,8 +2,7 @@ export const experience = [
   {
     company: "GoSaas.AI",
     role: "Software Engineering Intern",
-    duration: "REPLACE_THIS_WITH_ACTUAL_DURATION",
-    location: "REPLACE_THIS_WITH_ACTUAL_LOCATION_OR_REMOTE",
+    location: "Lahore",
     description:
       "Worked on backend data workflows, database cleanup, reporting systems, and internal software tools.",
     bullets: [

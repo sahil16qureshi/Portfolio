@@ -14,14 +14,14 @@
 body {
   margin: 0;
   background:
-    radial-gradient(circle at 20% 10%, rgba(103, 232, 249, 0.12), transparent 28rem),
-    radial-gradient(circle at 80% 30%, rgba(167, 139, 250, 0.12), transparent 28rem),
+    radial-gradient(circle at 20% 10%, rgba(225, 29, 72, 0.14), transparent 28rem),
+    radial-gradient(circle at 80% 30%, rgba(251, 113, 133, 0.1), transparent 28rem),
     #070a12;
   color: #e5eefc;
 }
 
 body::selection {
-  background: rgba(103, 232, 249, 0.28);
+  background: rgba(225, 29, 72, 0.28);
 }
 
 a {
@@ -38,15 +38,15 @@ a {
 }
 
 .gradient-text {
-  @apply bg-gradient-to-r from-cyanSoft via-slate-100 to-violetSoft bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-redSoft via-slate-100 to-violetSoft bg-clip-text text-transparent;
 }
 
 .fancy-name {
-  font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", cursive;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   letter-spacing: 0;
 }
 
 .focus-ring {
-  @apply focus:outline-none focus:ring-2 focus:ring-cyanSoft/60 focus:ring-offset-2 focus:ring-offset-ink;
+  @apply focus:outline-none focus:ring-2 focus:ring-redSoft/60 focus:ring-offset-2 focus:ring-offset-ink;
 }

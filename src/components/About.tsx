@@ -5,17 +5,17 @@ import { SectionHeading } from "@/components/SectionHeading";
 const cards = [
   {
     title: "Software Engineering",
-    description: "Backend systems, APIs, databases, and full-stack platforms.",
+    description: "Backend systems, APIs, Databases, and Full-Stack platforms.",
     icon: Code2,
   },
   {
     title: "AI & Data",
-    description: "Machine learning workflows, data pipelines, analytics, and intelligent automation.",
+    description: "Machine learning workflows, Data pipelines, Analytics, and Intelligent Automation.",
     icon: BrainCircuit,
   },
   {
     title: "Product & Leadership",
-    description: "Project ownership, team leadership, event management, and technical communication.",
+    description: "Project ownership, Team Leadership, Event Management, and Technical Communication.",
     icon: Users,
   },
 ];
@@ -33,7 +33,7 @@ export function About() {
       <div className="section-shell">
         <SectionHeading
           eyebrow="About me"
-          title="A builder who can take ideas from rough sketch to recruiter-ready proof"
+          title="Software engineer focused on practical, intelligent systems"
           description="I am a Computer Science graduate from Ghulam Ishaq Khan Institute with experience building full-stack applications, AI-powered workflows, backend systems, and data-driven projects. My work includes AI support-ticket automation, gesture and voice-based desktop control, large-scale chess data analysis, and energy analytics systems. I enjoy turning rough ideas into complete, usable, and demo-ready products."
         />
         <div className="grid gap-4 md:grid-cols-3">
@@ -48,7 +48,7 @@ export function About() {
                 transition={{ duration: 0.45, delay: index * 0.08 }}
                 className="glass-card p-6"
               >
-                <Icon className="mb-5 h-8 w-8 text-cyanSoft" />
+                <Icon className="mb-5 h-8 w-8 text-redSoft" />
                 <h3 className="text-lg font-bold text-white">{card.title}</h3>
                 <p className="mt-3 text-sm leading-6 text-slate-300">{card.description}</p>
               </MotionDiv>

@@ -11,6 +11,11 @@ const coursework = [
   "Computer Networks",
   "Cybersecurity",
   "Parallel Processing",
+  "Digital Business Analytics",
+  "Compiler Construction",
+  "Operating System",
+  "LLMs with Generative AI",
+  "Blockchain",
 ];
 
 export function Education() {
@@ -20,7 +25,7 @@ export function Education() {
         <SectionHeading
           eyebrow="Education"
           title="GIKI journey"
-          description="A four-year Computer Science foundation shaped by software engineering, systems thinking, AI, and project-driven learning."
+          description="A four-year Computer Science journey shaped by software engineering, systems thinking, AI, hands-on projects, and disciplined problem solving."
         />
         <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
           <MotionDiv
@@ -31,7 +36,7 @@ export function Education() {
             className="glass-card p-6"
           >
             <div className="flex items-start gap-4">
-              <div className="rounded-2xl bg-cyanSoft/12 p-3 text-cyanSoft">
+              <div className="rounded-2xl bg-redSoft/12 p-3 text-redSoft">
                 <GraduationCap className="h-7 w-7" />
               </div>
               <div>
@@ -44,7 +49,7 @@ export function Education() {
             </div>
             <div className="mt-8 grid gap-5">
               <div>
-                <div className="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.18em] text-cyanSoft">
+                <div className="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.18em] text-redSoft">
                   <BookOpen className="h-4 w-4" />
                   Relevant coursework
                 </div>
@@ -70,30 +75,32 @@ export function Education() {
                   <Award className="h-4 w-4" />
                   Achievement
                 </div>
-                <p className="mt-2 text-sm leading-6 text-slate-200">
-                  3rd Place at Industrial Open House 2026
-                </p>
+                <div className="mt-2 space-y-1 text-sm leading-6 text-slate-200">
+                  <p>3rd Place at Industrial Open House 2026</p>
+                  <p>Captain, GIKI Table Tennis Team</p>
+                </div>
               </div>
             </div>
           </MotionDiv>
           <div className="grid gap-4 sm:grid-cols-2">
             <ImageFrame
-              src="/images/giki-campus-1.jpg"
-              alt="GIKI campus placeholder"
-              label="public/images/giki-campus-1.jpg"
-              className="min-h-64"
+              src="/images/giki.jpg"
+              alt="GIKI campus"
+              label="public/images/giki.jpg"
+              className="h-64 sm:col-span-2"
             />
             <ImageFrame
-              src="/images/giki-campus-2.jpg"
-              alt="GIKI campus second placeholder"
-              label="public/images/giki-campus-2.jpg"
-              className="min-h-64 sm:translate-y-8"
+              src="/images/fyp.jpeg"
+              alt="Horizon UI final year project showcase"
+              label="public/images/fyp.jpeg"
+              className="h-80"
+              imageClassName="object-[center_18%]"
             />
             <ImageFrame
-              src="/images/giki-project.jpg"
-              alt="Horizon UI project placeholder"
-              label="public/images/giki-project.jpg"
-              className="min-h-64 sm:col-span-2"
+              src="/images/fyp1_h80_320px.jpeg"
+              alt="Horizon UI project team showcase"
+              label="public/images/fyp1_h80_320px.jpeg"
+              className="h-80"
             />
           </div>
         </div>

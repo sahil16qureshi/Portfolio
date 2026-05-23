@@ -20,9 +20,9 @@ export default function Home() {
       <section id="projects" className="py-24">
         <div className="section-shell">
           <SectionHeading
-            eyebrow="Selected work"
+            eyebrow="Projects"
             title="Projects built like products"
-            description="A recruiter-friendly snapshot of the systems, data products, and AI workflows I have built, with direct paths to code, demos, and case studies."
+            description="A focused collection of full-stack systems, AI workflows, data pipelines, and product-style builds that show how I approach real engineering problems."
           />
           <ProjectGrid projects={featuredProjects} />
         </div>

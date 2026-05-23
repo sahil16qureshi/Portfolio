@@ -6,9 +6,8 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const externalLinks = {
-  github: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-  linkedin: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-  email: "mailto:REPLACE_THIS_WITH_ACTUAL_EMAIL",
-  resume: "/resume/Sahil_Qureshi_Resume.pdf",
-  resumePreview: "/resume/resume-preview.png",
+  github: "https://github.com/sahil16qureshi",
+  linkedin: "https://www.linkedin.com/in/sahilqureshi1/",
+  email: "mailto:sahil16qureshi@gmail.com",
+  resume: "/resume/Sahil_Qureshi.pdf",
 };

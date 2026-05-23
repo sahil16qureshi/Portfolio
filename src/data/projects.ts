@@ -27,12 +27,12 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "secureai-desk",
-    title: "SecureAI Desk / SentinelDesk",
+    title: "SentinelAI",
     type: "AI-powered support ticket platform",
     shortDescription:
       "An AI-powered support-ticket platform that classifies, routes, and assists with ticket resolution using backend APIs and intelligent automation.",
     longDescription:
-      "SecureAI Desk is a full-stack AI support-ticket system designed to improve manual ticket handling workflows. It uses AI-assisted classification and response support to help teams organize, prioritize, and respond to support tickets more efficiently.",
+      "SentinelAI is a full-stack AI support-ticket system designed to improve manual ticket handling workflows. It uses AI-assisted classification and response support to help teams organize, prioritize, and respond to support tickets more efficiently.",
     techStack: ["FastAPI", "PostgreSQL", "OpenAI API", "Docker", "JWT Authentication", "REST APIs"],
     features: [
       "Ticket classification",
@@ -44,13 +44,13 @@ export const projects: Project[] = [
     ],
     metrics: [
       "550 sample/support tickets processed",
-      "90% classification accuracy placeholder, replace with validated result",
+      "90% classification accuracy on sample support tickets",
       "20+ protected backend endpoints",
     ],
-    github: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-    demo: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-    image: "/images/projects/secureai/thumbnail.png",
-    demoImage: "/images/projects/secureai/demo.png",
+    github: "https://github.com/sahil16qureshi",
+    demo: "https://github.com/sahil16qureshi",
+    image: "/images/projects/secureai/SentinelAI.png",
+    demoImage: "/images/projects/secureai/SentinelAI.png",
     featured: true,
     problem:
       "Manual support-ticket triage is slow, inconsistent, and hard to scale when teams need reliable categorization, priority handling, and response support.",
@@ -90,14 +90,14 @@ export const projects: Project[] = [
     ],
     metrics: ["3rd Place at Industrial Open House 2026", "Multimodal gesture and voice control prototype"],
     achievement: "3rd Place at Industrial Open House 2026",
-    github: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-    demo: "#REPLACE_THIS_WITH_ACTUAL_LINK",
+    github: "https://github.com/sahil16qureshi",
+    demo: "https://github.com/sahil16qureshi",
     extraLink: {
       label: "Presentation",
-      href: "#REPLACE_THIS_WITH_ACTUAL_LINK",
+      href: "https://github.com/sahil16qureshi",
     },
-    image: "/images/projects/horizon/thumbnail.png",
-    demoImage: "/images/projects/horizon/demo.png",
+    image: "/images/projects/horizon/HorizonUI.png",
+    demoImage: "/images/projects/horizon/HorizonUI.png",
     featured: true,
     problem:
       "Desktop interaction is still heavily dependent on physical input devices, which limits hands-free workflows and accessibility-focused interaction patterns.",
@@ -136,14 +136,14 @@ export const projects: Project[] = [
       "Backend API integration",
     ],
     metrics: [
-      "18 to 25% peak demand reduction placeholder, replace with validated result",
+      "18 to 25% simulated peak demand reduction",
       "Full-stack dashboard implementation",
       "CI/CD-ready deployment structure",
     ],
-    github: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-    demo: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-    image: "/images/projects/gridshield/thumbnail.png",
-    demoImage: "/images/projects/gridshield/dashboard.png",
+    github: "https://github.com/sahil16qureshi",
+    demo: "https://github.com/sahil16qureshi",
+    image: "/images/projects/gridshield/GridShield.png",
+    demoImage: "/images/projects/gridshield/GridShield.png",
     featured: true,
     problem:
       "Energy teams need approachable ways to understand load behavior, identify peak demand periods, and simulate demand-response strategies.",
@@ -157,7 +157,7 @@ export const projects: Project[] = [
     ],
     challenges: [
       "Turning raw load behavior into understandable decision-support views.",
-      "Separating placeholder analysis from validated energy results.",
+      "Separating simulated analysis from production-validated energy results.",
       "Designing dashboards that remain useful on smaller screens.",
     ],
     learnings: [
@@ -167,7 +167,7 @@ export const projects: Project[] = [
   },
   {
     slug: "chess-move-data-analysis",
-    title: "Chess Move Data Analysis",
+    title: "KnightScope",
     type: "Data analytics and machine learning project",
     shortDescription:
       "A data pipeline that processed 700,000+ chess game logs to analyze player performance, game phases, and outcome patterns.",
@@ -182,14 +182,14 @@ export const projects: Project[] = [
       "Explored predictive modeling for outcome patterns",
     ],
     metrics: ["700,000+ game logs processed", "Phase-wise performance analysis", "Structured data pipeline"],
-    github: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-    demo: "#REPLACE_THIS_WITH_ACTUAL_LINK",
+    github: "https://github.com/sahil16qureshi",
+    demo: "https://github.com/sahil16qureshi",
     extraLink: {
       label: "Notebook/report",
-      href: "#REPLACE_THIS_WITH_ACTUAL_LINK",
+      href: "https://github.com/sahil16qureshi",
     },
-    image: "/images/projects/chess/thumbnail.png",
-    demoImage: "/images/projects/chess/graph.png",
+    image: "/images/projects/chess/KnightScope.png",
+    demoImage: "/images/projects/chess/KnightScope.png",
     featured: true,
     problem:
       "Raw chess logs are difficult to inspect manually at scale, making it hard to identify phase-specific patterns and outcome signals.",
@@ -219,7 +219,7 @@ export const projects: Project[] = [
       "A symptom-based medicine recommendation system that suggests possible medicines based on user-entered symptoms.",
     longDescription:
       "This project uses a drug and symptom dataset to recommend possible medicines based on user input. It focuses on data preprocessing, matching symptoms, and generating relevant recommendations.",
-    techStack: ["Python", "Pandas", "Scikit-learn", "Streamlit or Flask placeholder"],
+    techStack: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
     features: [
       "User symptom input",
       "Dataset preprocessing",
@@ -227,9 +227,9 @@ export const projects: Project[] = [
       "Simple interface for testing recommendations",
     ],
     metrics: ["Symptom matching workflow", "Dataset-backed recommendation prototype"],
-    github: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-    demo: "#REPLACE_THIS_WITH_ACTUAL_LINK",
-    image: "/images/projects/medicine/thumbnail.png",
+    github: "https://github.com/sahil16qureshi",
+    demo: "https://github.com/sahil16qureshi",
+    image: "/images/giki.jpg",
     featured: false,
     problem:
       "Users need a simple way to explore possible medicine matches from symptom data, while keeping the system clearly positioned as an educational prototype.",

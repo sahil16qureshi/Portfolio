@@ -23,7 +23,7 @@ function BulletList({ items }: { items: string[] }) {
     <ul className="grid gap-3">
       {items.map((item) => (
         <li key={item} className="flex gap-3">
-          <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-cyanSoft" />
+          <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-redSoft" />
           <span>{item}</span>
         </li>
       ))}
@@ -49,7 +49,7 @@ export function ProjectDetail({ project }: ProjectDetailProps) {
           className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]"
         >
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyanSoft">{project.type}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-redSoft">{project.type}</p>
             <h1 className="mt-4 text-4xl font-black tracking-tight text-white sm:text-6xl">
               {project.title}
             </h1>
@@ -103,7 +103,7 @@ export function ProjectDetail({ project }: ProjectDetailProps) {
             <DetailBlock title="Screenshots and demo">
               <ImageFrame
                 src={project.demoImage ?? project.image}
-                alt={`${project.title} demo placeholder`}
+                alt={`${project.title} demo preview`}
                 label={project.demoImage ?? project.image}
                 className="min-h-80"
               />

@@ -7,7 +7,7 @@ export function Footer() {
       <div className="section-shell">
         <div className="grid gap-8 md:grid-cols-[1.2fr_0.8fr] md:items-end">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-cyanSoft">Contact</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-redSoft">Contact</p>
             <h2 className="mt-3 text-3xl font-bold text-white">Let&apos;s build something useful.</h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300">
               Open to software engineering, AI/ML, backend, and full-stack opportunities.
@@ -15,20 +15,20 @@ export function Footer() {
           </div>
           <div className="grid gap-3 text-sm text-slate-300">
             <a href={externalLinks.email} className="inline-flex items-center gap-3 hover:text-white">
-              <Mail className="h-4 w-4 text-cyanSoft" />
-              REPLACE_THIS_WITH_ACTUAL_EMAIL
+              <Mail className="h-4 w-4 text-redSoft" />
+              sahil16qureshi@gmail.com
             </a>
             <a href={externalLinks.github} className="inline-flex items-center gap-3 hover:text-white">
-              <Github className="h-4 w-4 text-cyanSoft" />
-              GitHub placeholder
+              <Github className="h-4 w-4 text-redSoft" />
+              sahil16qureshi
             </a>
             <a href={externalLinks.linkedin} className="inline-flex items-center gap-3 hover:text-white">
-              <Linkedin className="h-4 w-4 text-cyanSoft" />
-              LinkedIn placeholder
+              <Linkedin className="h-4 w-4 text-redSoft" />
+              sahilqureshi1
             </a>
             <p className="inline-flex items-center gap-3">
-              <MapPin className="h-4 w-4 text-cyanSoft" />
-              REPLACE_THIS_WITH_ACTUAL_LOCATION
+              <MapPin className="h-4 w-4 text-redSoft" />
+              Lahore
             </p>
           </div>
         </div>

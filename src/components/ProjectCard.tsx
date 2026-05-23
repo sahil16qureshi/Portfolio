@@ -20,10 +20,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
     >
       <ImageFrame src={project.image} alt={`${project.title} thumbnail`} label={project.image} className="aspect-video rounded-none border-0" />
       <div className="flex flex-1 flex-col p-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyanSoft">{project.type}</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-redSoft">{project.type}</p>
         <Link href={`/projects/${project.slug}`} className="group mt-3 inline-flex items-start justify-between gap-4">
-          <h3 className="text-xl font-bold text-white transition group-hover:text-cyanSoft">{project.title}</h3>
-          <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-slate-500 transition group-hover:translate-x-1 group-hover:text-cyanSoft" />
+          <h3 className="text-xl font-bold text-white transition group-hover:text-redSoft">{project.title}</h3>
+          <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-slate-500 transition group-hover:translate-x-1 group-hover:text-redSoft" />
         </Link>
         <p className="mt-3 text-sm leading-6 text-slate-300">{project.shortDescription}</p>
         <div className="mt-5 flex flex-wrap gap-2">

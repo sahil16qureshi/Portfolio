@@ -21,9 +21,9 @@ export function ButtonLink({
     "focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-sm font-semibold transition";
   const variants = {
     primary:
-      "bg-cyanSoft text-slate-950 shadow-glow hover:bg-white hover:shadow-[0_18px_70px_rgba(103,232,249,0.24)]",
+      "bg-redSoft text-white shadow-glow hover:bg-white hover:text-slate-950 hover:shadow-[0_18px_70px_rgba(225,29,72,0.28)]",
     secondary:
-      "border border-line bg-white/[0.06] text-slate-100 hover:border-cyanSoft/50 hover:bg-white/[0.1]",
+      "border border-line bg-white/[0.06] text-slate-100 hover:border-redSoft/50 hover:bg-white/[0.1]",
     ghost: "text-slate-300 hover:text-white",
   };
 
