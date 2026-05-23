@@ -33,7 +33,7 @@ export const projects: Project[] = [
       "An AI-powered support-ticket platform that classifies, routes, and assists with ticket resolution using backend APIs and intelligent automation.",
     longDescription:
       "SentinelAI is a full-stack AI support-ticket system designed to improve manual ticket handling workflows. It uses AI-assisted classification and response support to help teams organize, prioritize, and respond to support tickets more efficiently.",
-    techStack: ["FastAPI", "PostgreSQL", "OpenAI API", "Docker", "JWT Authentication", "REST APIs"],
+    techStack: ["FastAPI", "PostgreSQL", "OpenAI API", "Docker", "JWT Authentication", "REST APIs", "Automation"],
     features: [
       "Ticket classification",
       "AI-assisted response suggestions",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
       "Dockerized backend setup",
     ],
     metrics: [
-      "550 sample/support tickets processed",
+      "Integrating AI and security together to automate workflows",
       "90% classification accuracy on sample support tickets",
       "20+ protected backend endpoints",
     ],
