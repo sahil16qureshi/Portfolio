@@ -63,10 +63,11 @@ export function Hero() {
         >
           <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-redSoft/20 via-transparent to-violetSoft/20 blur-2xl" />
           <ImageFrame
-            src="/images/profile.png"
+            src="/images/profile1.png"
             alt="Sahil Qureshi profile"
-            label="public/images/profile.png"
+            label="public/images/profile1.png"
             className="relative aspect-[4/5] shadow-glow"
+            imageClassName="object-[center_8%]"
           />
         </MotionDiv>
       </div>
